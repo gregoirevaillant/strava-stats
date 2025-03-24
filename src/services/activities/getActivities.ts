@@ -1,4 +1,4 @@
-import axiosInstance from "./axiosInstance.ts";
+import axiosInstance from "../axiosInstance.ts";
 
 const getActivities = async () => {
   const response = await axiosInstance.get("/api/v3/athlete/activities");

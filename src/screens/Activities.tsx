@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import getActivities from '../services/getActivities';
+import getActivities from '../services/activities/getActivities';
 import { Link } from 'react-router';
-import { ISummaryActivity } from '../types/ISummaryActivities';
+import { ISummaryActivity } from '../types/activities/ISummaryActivities';
 
 const Activities = () => {
   const [activities, setActivities] = useState<ISummaryActivity[]>([]);

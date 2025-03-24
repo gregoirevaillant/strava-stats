@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router"
-import { IActivity } from "../types/IActivities"
-import getActivity from "../services/getActivity"
+import { IActivity } from "../types/activities/IActivities"
+import getActivity from "../services/activities/getActivity"
 
 const Activity = () => {
     const [activity, setActivity] = useState<IActivity | null>(null)
