@@ -40,7 +40,7 @@ height: '400px',
 const colors = ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FF00FF', '#00FFFF'];
 
 const { isLoaded } = useLoadScript({
-googleMapsApiKey: 'AIzaSyAyK1s5kKn-uJR5LIFmmBI33khIRxbQBoM',
+googleMapsApiKey: '',
 libraries: ['geometry'],
 });
 
